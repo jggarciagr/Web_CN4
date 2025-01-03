@@ -1,0 +1,254 @@
+* 
+{
+    margin: 0%;
+    padding: 1%;
+}
+
+.titulo
+ {
+    text-align: center;
+}
+
+#cuerpo  
+{   width:1020px;
+    margin: 15px auto;
+    text-align: left;
+    background-image: url("Imagenes/Fondo1.jpeg");
+}
+
+
+.imagencabecera
+ {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+#imgcabecera
+{
+    clip-path: circle(35%);
+    width: 300px;
+    transition: .3s;
+}
+
+#imgcabecera:hover 
+{
+    clip-path: circle(38%);
+    scale: 1.02;
+}
+
+
+
+
+#encabezado    /*identificador*/
+{
+    background: #e9e8e1;
+    border: 35px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+h1 
+{
+    font: bold;
+    font-size: 23px;
+    font-family: Verdana, Arial, sans-serif;
+
+}
+
+
+h2 
+{
+    font: bold 14px Verdana, Arial, sans-serif;
+}
+
+h3
+ {
+    text-align: center;
+    font: bold 14px Verdana, Arial, sans-serif;
+    font-size: 23px;
+}
+
+
+body 
+{
+    background-color: rgb(53, 164, 192);
+    text-align: center;
+    display: flex;
+}
+
+
+#anuncio{
+    
+    display: flex;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#cerrar{
+
+    position: absolute;              
+    top: 10px;
+    right: 10px;
+    background-color:#ff5555;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#imgbanner{
+
+    max-width: 40%;
+    height: 40%;
+    border-radius: 10px;
+
+}
+
+#principal{
+  
+    background-color: rgb(184, 231, 102);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+/*para darle interlineado y color al texto, esto es una clase*/
+
+.texto1   
+{
+    color: rgb(13, 13, 13);
+    background-color: rgb(232, 232, 241);
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+}
+
+/*para darle interlineado y color a todos los parrafos*/
+
+p   
+{
+    color: rgb(13, 13, 13);
+   /* background-color: rgb(232, 232, 241);*/
+   
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    text-align: justify;
+    /*text-decoration: overline;  */
+    text-shadow: #e51332;  
+}
+
+
+
+
+#menu 
+{
+    background: #cccccc;
+    padding: 15px;
+    background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+
+}
+*/
+
+    /* le da forma a los botones del menu*/
+
+.nav-enlace 
+{
+
+    background: rgb(67, 28, 196);
+    color: #fff;
+    margin: 5px;
+    text-decoration: none;
+    padding: 10px 30px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(150, 150, 150)5px 5px;
+    -webkit-box-shadow: rgb(150, 150, 150)5px 5px;
+    box-shadow: rgb(150, 150, 150)5px 5px;
+}
+
+.nav-enlace:hover 
+{
+    background: rgb(132, 138, 200);
+}
+
+#seccion
+ {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+#lateral 
+{
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #cccccc;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(150, 150, 150)5px 5px;
+    -webkit-box-shadow: rgb(150, 150, 150)5px 5px;
+    box-shadow: rgb(150, 150, 150)5px 5px;
+
+}
+
+#pie
+ {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #999999;
+}
+
+article 
+{
+    background: #f9f9fb;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(150, 150, 150)5px 5px;
+    -webkit-box-shadow: rgb(150, 150, 150)5px 5px;
+    box-shadow: rgb(150, 150, 150)5px 5px;
+
+}
+
+article footer {
+    text-align: right;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14 px verdana, sans-serif;
+}
+
+table {
+    text-shadow: #369 2px 2px 2px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+ 
